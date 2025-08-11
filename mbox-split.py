@@ -2,8 +2,7 @@ import mailbox
 import os
 import time
 
-# INPUT_MBOX = "/Volumes/home/mbc_gdrive_backup_final_2024/takeout-20240710T201754Z-003/Takeout/Mail/All mail Including Spam and Trash.mbox"
-INPUT_MBOX = "/Users/christopherdefazio/Documents/mail.mbox"
+INPUT_MBOX = "/path/to/mail.mbox"
 OUTPUT_DIR = "mbox_chunks"
 MESSAGES_PER_CHUNK = 5000
 PROGRESS_EVERY = 1000
